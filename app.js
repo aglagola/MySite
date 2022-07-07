@@ -540,3 +540,7 @@ minNumberBills = (num) => {
   }
   return arr;
 };
+
+// Incrementing map key value and creating if doesn't exist
+if (map[key] == null) map[key] = 0;
+map[key] = map[key]++;
